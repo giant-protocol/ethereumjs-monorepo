@@ -16,7 +16,8 @@ export const MAX_INTEGER = BigInt(
 /**
  * The max integer that the evm can handle (2^256-1) as a bigint
  */
-export const MAX_INTEGER_BIGINT = BigInt(2) ** BigInt(256) - BigInt(1)
+// export const MAX_INTEGER_BIGINT = BigInt(2) ** BigInt(256) - BigInt(1)
+export const MAX_INTEGER_BIGINT = MAX_INTEGER
 
 export const SECP256K1_ORDER = CURVE.n
 export const SECP256K1_ORDER_DIV_2 = CURVE.n / BigInt(2)
